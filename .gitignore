@@ -3,3 +3,19 @@ __pycache__/
 *$py.class
 Session.vim
 ckpt/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.so
+*.log
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.venv/
+env/
+venv/
+pip_requirements.txt
+svox2/csrc.cpython-*.so
